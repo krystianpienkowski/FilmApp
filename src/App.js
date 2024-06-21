@@ -44,7 +44,7 @@ const App = () => {
   const carsRef = useRef(null);
 
   const getMovieRequest = async (searchTerm, setMoviesFunction) => {
-    const url = `http://www.omdbapi.com/?s=${searchTerm}&apikey=daba5ce8`;
+    const url = `https://www.omdbapi.com/?s=${searchTerm}&apikey=daba5ce8`;
     const response = await fetch(url);
     const responseJson = await response.json();
 
