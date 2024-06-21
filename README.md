@@ -16,5 +16,15 @@ git clone https://github.com/your-username/filmapp.git
 cd filmapp
 npm install
 npm start
-
+```
 The app will be available at http://localhost:3000
+
+## Usage
+- **Search Movies:** Use the search bar to find movies.
+- **Manage Watchlist:** Add or remove movies from your watchlist.
+- **Explore Categories:** Navigate through categories like Avengers, Batman to find related movies.
+
+## Dependencies
+- React
+- Bootstrap
+- OMDB API
